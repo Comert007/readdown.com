@@ -1,0 +1,138 @@
+baseURL = "https://readdown.com/"
+languageCode = "en-us"
+title = "移动技术分享"
+theme = "beautifulhugo"
+canonifyURLs = true
+
+DefaultContentLanguage = "zh"
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsStyle = "solarized-light"
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = false
+paginate = 12
+autoFigure = true
+disqusShortname = "readdown"
+
+
+[params]
+  subtitle = "关注 音视频、直播、WebRTC、图像渲染、FFmpeg、OpenGL、C++、移动开发等技术"
+  keywords = "FFmpeg、C++、Android、OpenGL、WebRTC、游戏引擎、SDL"
+  author = "星陨"
+   navLogo = "https://ae01.alicdn.com/kf/U8e416f129f5040ec903a219b08d4ffcdl.jpg"
+  logo = "https://image.glumes.com/video-favicon.png"
+  avatar = "https://image.glumes.com/video-favicon.png"
+  favicon = "https://image.glumes.com/video-favicon.png"
+
+  rss = true
+  reward = true
+  algolia = true
+  useWebfont = true
+  customimg = true
+
+  customCSSAssets = []
+  customJSAssets = []
+  defaultImg = "https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/photo-1557380664-dd666ff4e559.jpeg"
+  gcse = true
+
+
+[params.gitcomment]
+  owner = "cnych"
+  repo = "blog"
+  clientId = "bdb76dbb2e9d0786e350"
+  clientSecret = "b454b2a08013fd0e32013be7a63fa8fcb262b6c4"
+
+
+# [[params.banner]]
+#  src = "img/head-android.jpg"
+#  url = "https://readdown.com"
+
+
+[[Params.bigimg]]
+  src = "img/head-android.jpg"
+  desc = ""
+  url  = "https://readdown.com"
+
+
+
+[[menu.main]]
+    identifier = "Categories"
+    name = "音视频"
+    weight = 1
+
+#[[menu.main]]
+#    parent = "Categories"
+#    name = "OpenGL "
+#    url = "categories/opengl"
+#    weight = 1
+
+[[menu.main]]
+    parent = "Categories"
+    name = "FFmpeg"
+    url = "categories/ffmpeg"
+    weight = 2
+
+[[menu.main]]
+    parent = "Categories"
+    name = "Codec "
+    url = "categories/codec"
+    weight = 3
+
+[[menu.main]]
+    identifier = "Developer"
+    name = "移动开发"
+    weight = 2
+
+[[menu.main]]
+    parent = "Developer"
+    name = "Android"
+    url = "categories/android"
+    weight = 1
+
+#[[menu.main]]
+#    parent = "Developer"
+#    name = "C++"
+#    url = "categories/c++"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "Developer"
+#    name = "Java"
+#    url = "categories/java"
+#    weight = 3
+	
+[[menu.main]]
+    parent = "Developer"
+    name = "Flutter"
+    url = "categories/flutter"
+    weight = 4
+
+[[menu.main]]
+    identifier = "VPS"
+	name = "VPS"
+	url = "vps/"
+	weight = 3
+
+[[menu.main]]
+    parent = "VPS"
+	name = "GFW"
+	url = "categories/gfw"
+	weight = 1
+	
+[[menu.main]]
+    parent = "VPS"
+	name = "IP"
+	url = "categories/ip"
+	weight = 2
+	
+#[[menu.main]]
+#    identifier = "about"
+#	name = "关于"
+#	url = "about/"
+#	weight = 3
+
+[[menu.main]]
+    identifier = "post"
+    name = "所有文章"
+    url = "post/"
+    weight = 4

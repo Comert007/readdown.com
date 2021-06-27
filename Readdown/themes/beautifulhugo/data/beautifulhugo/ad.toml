@@ -1,0 +1,24 @@
+[[ads]]
+url = "https://learnopengl-cn.github.io/"
+title = "OpenGL-官方学习网"
+cover = "img/ad_opengl.png"
+
+
+[[ads]]
+url = "http://ffmpeg.org/"
+title = "FFmpeg-官网"
+cover = "img/ad_ffmpeg.jpg"
+
+[[ads]]
+url = "https://github.com/AnJoiner/FFmpegCommand"
+title = "开源项目"
+cover = "img/ad_ffmpeg_command.jpg"
+
+[[ads]]
+url = "https://github.com/Awesome-HarmonyOS/HarmonyOS"
+title = "鸿蒙系统"
+cover = "img/ad_harmony.png"
+
+
+
+

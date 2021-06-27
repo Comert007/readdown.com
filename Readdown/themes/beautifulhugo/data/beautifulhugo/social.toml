@@ -1,0 +1,18 @@
+[[social_icons]]
+id = "email"
+url = "mailto:anjoiner@163.com"
+title = "Email me"
+icon = "fa-envelope"
+
+[[social_icons]]
+id = "github"
+url = "https://github.com/AnJoiner"
+title = "GitHub"
+icon = "fa-github"
+
+#[[social_icons]]
+#id = "weibo"
+#url = "https://weibo.com/u/3157458295"
+#title = "微博"
+#icon = "fa-weibo"
+
