@@ -1,4 +1,4 @@
-baseURL = "https://readdown.com/"
+baseURL = "https://comert007.github.io/"
 languageCode = "en-us"
 title = "移动技术分享"
 theme = "beautifulhugo"
@@ -16,13 +16,13 @@ disqusShortname = "readdown"
 
 
 [params]
-  subtitle = "关注 音视频、直播、WebRTC、图像渲染、FFmpeg、OpenGL、C++、移动开发等技术"
-  keywords = "FFmpeg、C++、Android、OpenGL、WebRTC、游戏引擎、SDL"
-  author = "星陨"
+  subtitle = "关注 音视频、图形渲染、直播推流、移动应用开发等技术"
+  keywords = "FFmpeg、C++、Android、OpenGL、RTMP、EGL、SDL"
+  author = "AnJoiner"
    navLogo = "https://ae01.alicdn.com/kf/U8e416f129f5040ec903a219b08d4ffcdl.jpg"
-  logo = "https://image.glumes.com/video-favicon.png"
-  avatar = "https://image.glumes.com/video-favicon.png"
-  favicon = "https://image.glumes.com/video-favicon.png"
+  logo = "img/favicon.ico"
+  avatar = "img/favicon.ico"
+  favicon = "img/favicon.ico"
 
   rss = true
   reward = true
@@ -48,7 +48,7 @@ disqusShortname = "readdown"
 #  url = "https://readdown.com"
 
 
-[[Params.bigimg]]
+[[params.bigimg]]
   src = "img/head-android.jpg"
   desc = ""
   url  = "https://readdown.com"
